@@ -1,0 +1,1443 @@
+HOMEPAGE
+
+<!-- 
+  Krish Patel
+  6/6/2022
+  Homepage
+  The following is the HTML code used to code the homepage of my Super Mario Bros game
+-->
+
+<html>
+  <head>
+    <title>
+      Homepage
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <center><h1>Super Mario Bros.</h1></center>
+    <ul id="navBar">
+      <li>
+        <a href="index.html">HOME</a>
+      </li>
+      <li>
+        <a href="roughSketches/index.html">ROUGH SKETCHES</a>
+      </li>
+      <li>
+        <a href="codeSnippets/index.html">CODE SNIPPETS & TEXT FILE</a>
+      </li>
+      <li>
+        <a href="newFunctions/index.html">NEW FUNCTIONS</a>
+      </li>
+      <li>
+        <a href="help/index.html">HELP</a>
+      </li>
+      <li>
+        <a href="game/index.html">PLAY GAME</a>
+      </li>
+    </ul>
+    <br><br><br>
+    <center><h3 style="font-size: 30px; font-family: 'Kdam Thmor Pro', sans-serif;'">Creator : Krish Patel</h3><center>
+
+    <table id="homePageTables">
+      <tr>
+        <td style="width:65%;">
+          <h2>
+            Premise
+          </h2>
+          <p>
+            For my ICS3U summative project, I have created a modified version of the hit game, Super Mario Bros. I felt as if taking on the creation of this game would allow me to push my boundaries to see how much I could really do using the concepts learned throughout this grade 11 course. This game includes the elements of global variables, functions with and without parameters, string functions, arrays, and bubble sorting. Feel free to navigate throughout the different pages to learn more about the creation of the game, how the game is played, and last but not least, actually play the game!
+          </p>
+        </td>
+        <td>
+          <img src="images/super_mario_bros_game.png" width=400 height=450>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+    
+    <table id="homePageTables">
+      <tr>
+        <td>
+          <img src="images/avatar.png" width=400 height=400>
+        </td>
+        <td style="width:65%;">
+          <h2>
+            Work Distribution
+          </h2>
+          <p style="text-align:left;">
+            I will be taking on this mission solo. My responsibilities include:<br><br>• Creating all the required webpages using HTML and CSS (Homepage, Rough Sketches, Code Snippets, New Functions, Help)<br><br>• Program the Super Mario Bros game. This includes adding assets, creating interative componenets with the user, including all the required components, and testing for errors<br><br>• Ensuring that all work is done by the deadlines
+          </p>
+        </td>
+      </tr>
+    </table>
+    
+    <hr><hr>
+
+     <table id="homePageTables">
+      <tr>
+        <td>
+          <h2>
+            Possible Challenges
+          </h2>
+          <p>
+            To include <strong>STRING FUNCTIONS</strong>:<br>I can display the player's name in the top right of the game with the first letter in their name being capitalized above the score using string functions.<br><br>
+            To include <strong>ARRAYS</strong>:<br>I can display the player's score for each level to the right of the game by using parallel arrays; one array for the level and the other for the scores.<br><br>
+            To include <strong>SORTING</strong>:<br>With the scores they have for each level, I can rank it in order from highest to lowest with the use of the bubble sorting algorithm.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="homePageTables">
+      <tr>
+        <td>
+          <h2>
+            Screens
+          </h2>
+          <p style="text-align:left;">
+            I am planning to have 3 different main screens:<br><br>
+            <strong>• Menu  Screen</strong> - This is the screen where the title screen in on. By a click of a button, the user will enter the game.<br><br>
+            <strong>• Game Screen</strong> - These are the screens where the actual game is going to be played on. I am planning to include 5 different levels, increasing in difficulty through each level. Each level is going to have it's own scene in Phaser, but as they are all the same concept, I am going to refer to them as just the game screen<br><br>
+            <strong>• Level Select Screen</strong> - This is the screen where the user will be able to click on the level they would like to play as long as they have it unlocked. It will be accessible from the home page<br><br>
+            <strong>• Transition Screen</strong> - This screen will appear when a level is complete or if the player runs out of lives. This is here to make the transition between levels smooth.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="homePageTables">
+      <tr>
+        <td>
+          <h2>
+            Concerns
+          </h2>
+          <p style="text-align:left;">
+            • The due date is only about a week away and my game is ambitious so I am nervous that I won't be able to finish the game in time<br><br>
+            • The creation of the game will have components that I don't know how to add. This will require a lot of research and time. I am a beginner to using Phaser so I will have to learn as I create the game<br><br>
+            • I don't know how I am going to include all 4 required functions (Function Without Parameters, Function With Parameters, Function Without Parameters and a Return Value, and Function With Parameters and a Return value)
+            
+          </p>
+        </td>
+      </tr>
+    </table>
+    
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CODE SNIPPETS PAGE
+
+<!-- 
+  Krish Patel
+  6/6/2022
+  Code Snippets
+  The following is the HTML code used to code the displayer of code snippets used in my Super Mario Bros game as well as the .txt file including all the code
+-->
+
+<html>
+  <head>
+    <title>
+      Code Snippets
+    </title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center><h1>Code Snippets</h1></center>
+    <ul id="navBar">
+      <li>
+        <a href="../index.html">HOME</a>
+      </li>
+      <li>
+        <a href="../roughSketches/index.html">ROUGH SKETCHES</a>
+      </li>
+      <li>
+        <a href="../codeSnippets/index.html">CODE SNIPPETS & TEXT FILE</a>
+      </li>
+      <li>
+        <a href="../newFunctions/index.html">NEW FUNCTIONS</a>
+      </li>
+      <li>
+        <a href="../help/index.html">HELP</a>
+      </li>
+      <li>
+        <a href="../game/index.html">PLAY GAME</a>
+      </li>
+    </ul>
+    <br><br><br><br>
+
+    <center><h2>Global Variables</h2></center>
+    <center><img src="../images/globalVariables.png"></center>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/functionNoParameter.png">
+        </td>
+        <td width=50%>
+          <h2 style="line-height: 50px;">Function Without Parameters</h2>
+          <p>
+            This function is called once the player dies. Since this can happen on multiple different occurences, I decided to put it in a function. The function takes in no parameters and does not have a return value. It adds the player's score before they die to the list of scores. It stops the background music then plays the dying sound effect. It opens the transition screen and closes the game screen.
+          </p>
+        </td>
+      </tr>
+    </table>
+    
+    <hr><hr>
+    
+    <table id="codeSnippetsTables"">
+      <tr>
+        <td style="padding-left:50px">
+          <h2 style="line-height: 50px;">Function With Parameters</h2>
+          <p>
+            This function is called when placing a brick in the game. It has two parameters, x and y, and it doesn't have a return value. This will denote the x and y value of the brick added. The function will also add the brick into the brickGroup.
+          </p>
+        </td>
+        <td>
+          <img src="../images/functionParameterNoReturn.png" width=790 height=220>
+        </td>
+      </tr>
+    </table>
+    
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/functionNoParameterReturn.png" width=400 height=500>
+        </td>
+        <td width=50%>
+          <h2 style="line-height: 50px;">Function Without Parameters and a Return Value</h2>
+          <p>
+            This function is called in the update section of the game scene. It does not take in any parameters and has a return value of either true of false. It returns true if the player has fallen below the ground and false if it hasn't. This is because if the player falls out of the world, the player dies.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables"">
+      <tr>
+        <td style="padding-left:50px">
+          <h2 style="line-height: 50px;">Function With Parameters and a Return Value</h2>
+          <p>
+            This function is called at the start of the game to edit the name entered in the starting prompt. The function takes in one parameter and returns the new string after the adjustments. The function capitalizes the player's name. Also, if the length of the string is above 15, it shortens down the name to the first 15 characters. This ensures that long names won't glitch the game.
+          </p>
+        </td>
+        <td>
+          <img src="../images/functionParameterReturn.png">
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <h2 style="line-height: 50px;">String Function #1</h2>
+        </td>
+        <td>
+          <img src="../images/stringFunction1.png">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2 style="line-height: 50px;">String Function #2</h2>
+        </td>
+        <td>
+          <img src="../images/stringFunction2.png">
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/arrays1.png">
+        </td>
+        <td>
+          <h2 style="line-height: 50px;">Array Example #1</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="../images/arrays2.png">
+        </td>
+        <td>
+          <h2 style="line-height: 50px;">Array Example #2</h2>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables"">
+      <tr>
+        <td>
+          <h2>Bubble Sorting</h2>
+          <p>
+            This bubble sorting function can be used anywhere in the code. Using a bubble sorting algorithm, it will successfully order numbers in a list in ascending order. I primarly use this function in my code when finding the high score for each level. The function would order the list of scores from lowest to highest then I could get the last element to get the high score.
+          </p>
+        </td>
+        <td>
+          <img src="../images/bubbleSort.png" width=700 height=600>
+        </td>
+      </tr>
+    </table>
+    <br><br><br><br>
+    <center><a href="code.txt" id="codeHyperlink">CODE.TXT</a></center>
+    <br><br><br><br><br><br>
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NEW FUNCTIONS
+
+<!-- 
+  Krish Patel
+  6/6/2022
+  New Functions
+  The following is the HTML code used to code the displayer of new functions used in my Super Mario Bros game
+-->
+
+<html>
+  <head>
+    <title>
+      New Functions
+    </title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center><h1>New Functions</h1></center>
+    <ul id="navBar">
+      <li>
+        <a href="../index.html">HOME</a>
+      </li>
+      <li>
+        <a href="../roughSketches/index.html">ROUGH SKETCHES</a>
+      </li>
+      <li>
+        <a href="../codeSnippets/index.html">CODE SNIPPETS & TEXT FILE</a>
+      </li>
+      <li>
+        <a href="../newFunctions/index.html">NEW FUNCTIONS</a>
+      </li>
+      <li>
+        <a href="../help/index.html">HELP</a>
+      </li>
+      <li>
+        <a href="../game/index.html">PLAY GAME</a>
+      </li>
+    </ul>
+    <br><br><br><br><br><br>
+
+    <center><h2>getChildren()</h2></center>
+    
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <p>
+            The getChildren() function returns an array which contains all objects currently in a group. It takes in no parameters. I used this function for every group I added so I can modify each item in a group using a for loop and loop through each element in the array.
+          </p>
+        </td>
+        <td>
+          <img src="../images/getChildren.png" width=700 height=300>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setScrollFactor()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/setScrollFactor.png" width=700 height=300>
+        </td>
+        <td>
+          <p>
+            The setScrollFactor() function controls the influence of the movement of the camera upon the movement of a game object. It takes in an x value and an optional y value. Setting one 0 parameter will set the element in place on the screen. In my game, I used this to make the top text stationary. I wanted the background screen to scroll and having the parameters (0, 1) will do so.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setVelocityX()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <p>
+            The setVelocityX() function sets the horizontal velocity for an object. There is one parameter containing a number that would be the velocity of the object. The higher the number, the faster the object goes. A negative value makes the object go left and a positive value makes the object go right. I used this in my game to move the Mario left and right and the Goomba enemy back and forth.
+          </p>
+        </td>
+        <td>
+          <img src="../images/setVelocityX.png" width=700 height=270>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setOrigin()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/setOrigin.png" width=900 height=100>
+        </td>
+        <td>
+          <p>
+            The setOrigin() function sets the origin of the object. It takes in two optional x and y parameters and is helpful when wanting to add an object to a certain origin point. I used this when adding my background and ground using the parameters (0, 0)
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setVelocityY()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <p>
+            The setVelocityY() function sets the vertical velocity for an object. There is one parameter containing a number that would be the velocity of the object. The higher the number, the faster the object moves. A negative value makes the object go up and a positive value makes the object go down. I used this in my game to move the Mario jump up as well as go up the ladders.
+          </p>
+        </td>
+        <td>
+          <img src="../images/setVelocityY.png" width=700 height=400>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ROUGH SKETCHES PAGE
+
+<!-- 
+  Krish Patel
+  6/6/2022
+  Rough Sketches
+  The following is the HTML code used to code the displayer of the rough sketches of my Super Mario Bros game
+-->
+
+<html>
+  <head>
+    <title>
+      Rough Sketches
+    </title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center><h1>Rough Sketches</h1></center>
+    <ul id="navBar">
+      <li>
+        <a href="../index.html">HOME</a>
+      </li>
+      <li>
+        <a href="../roughSketches/index.html">ROUGH SKETCHES</a>
+      </li>
+      <li>
+        <a href="../codeSnippets/index.html">CODE SNIPPETS & TEXT FILE</a>
+      </li>
+      <li>
+        <a href="../newFunctions/index.html">NEW FUNCTIONS</a>
+      </li>
+      <li>
+        <a href="../help/index.html">HELP</a>
+      </li>
+      <li>
+        <a href="../game/index.html">PLAY GAME</a>
+      </li>
+    </ul>
+
+    <table id="roughSketchTable">
+      <tr>
+        <td>
+          <h2>
+            Menu Screen
+          </h2>
+          <p>
+            This is the screen that will open up when the user enters the game. From here, they will have the option to enter the level select screen or start the game. If they choose to click start game, they will automatically be set on the level 1 world no matter what levels they completed to that point.
+          </p>
+        </td>
+        <td>
+          <img src="../images/roughSketch1.png">
+        </td>
+      </tr>
+    </table>
+
+    <table id="roughSketchTable">
+      <tr>
+        <td>
+          <h2>
+            Game Screen
+          </h2>
+          <p>
+            The game screen is where the heart of the game is. Here, players will be able to move a Mario character around the screen gaining coins while not dying with the end goal of reaching the flag at the end. I am planning to have 5 different levels and each one will have it's own screen.
+          </p>
+        </td>
+        <td>
+          <img src="../images/roughSketch3.png">
+        </td>
+      </tr>
+    </table>
+
+    <table id="roughSketchTable">
+      <tr>
+        <td>
+          <h2>
+            Transition Screen
+          </h2>
+          <p>
+            This scene will appear when the player has lost all 3 lives for that level and died. This will give the user an opportunity to either try the level again or head back to the main screen.
+          </p>
+        </td>
+        <td>
+          <img src="../images/roughSketch2.png">
+        </td>
+      </tr>
+    </table>
+
+    <table id="roughSketchTable">
+      <tr>
+        <td>
+          <h2>
+            Level Select Screen
+          </h2>
+          <p>
+            I created this screen to give more flexibility to the user. They will be able to choose any of the levels they want to play as long as they have it unlocked. The levels will remain locked until they complete the previous levels to reach that point. This allows the user to go back to levels they enjoyed or if want to retry a level to recieve a higher score. Note that refreshing the page will make all of your progress disappear.
+          </p>
+        </td>
+        <td>
+          <img src="../images/roughSketch4.png">
+        </td>
+      </tr>
+    </table>
+    
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WEBSITE CSS PAGE
+
+body {
+  background-image: url(images/background.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 70px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 10px;
+  font-family: 'Press Start 2P';
+}
+
+h2 {
+  font-size: 36px;
+  text-decoration: underline;
+  font-family: 'Press Start 2P';
+}
+
+#navBar {
+  width: 100%;
+  list-style: none;
+}
+
+#navBar li {
+  float: left;
+  margin-right: 45px;
+}
+
+#navBar li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: 'Press Start 2P';
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 5px;
+  padding: 10px;
+}
+
+#navBar li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+#homePageTables{
+  width: 100%; 
+  padding: 40px;
+}
+
+#homePageTables tr td{
+  text-align: center;
+}
+
+#homePageTables tr td p{
+  background-color: rgb(185, 226, 250);
+  padding: 30px;
+  border-style: solid;
+  border-width: 5px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+#roughSketchTable{
+  width: 100%; 
+  padding: 40px;
+}
+
+#roughSketchTable tr td{
+  text-align: center;
+  padding: 40px;
+}
+
+#roughSketchTable tr td p{
+  background-color: rgb(185, 226, 250);
+  padding: 30px;
+  border-style: solid;
+  border-width: 5px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+#roughSketchTable tr td img{
+  width:800px;
+  height:400px;
+  border-style: solid; 
+  border-width:5px;
+}
+
+#codeSnippetsTables{
+  width: 100%; 
+  padding: 40px;
+}
+
+#codeSnippetsTables tr td{
+  text-align: center;
+  padding: 20px;
+}
+
+#codeSnippetsTables tr td p{
+  background-color: rgb(185, 226, 250);
+  padding: 30px;
+  border-style: solid;
+  border-width: 5px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+#codeHyperlink {
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 30px;
+  border-style: solid;
+  border-width: 5px;
+  cursor: pointer;
+  color: red;
+  padding: 30px;
+  text-decoration: none;
+}
+
+#codeHyperlink:hover {
+  background-color:rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+GAME HTML PAGE
+
+<!-- 
+  Krish Patel
+  6/6/2022
+  Game Page
+  The following is the HTML code used to code the webpage on which the Super Mario Bros game is going to be located on
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Super Mario Bros.</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.52.0/phaser.min.js" integrity="sha512-2wu8HKyxH3r65DZuWEdiov7+mBVti4Kfjg9WTXNP8qitejYSBn2S+Kgi4M3ctlnA9qTDU6hyTsiqpIfFhQBY0Q==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preload"as="font" href="assets/superMarioFont.ttf" type="font/ttf"/>
+  </head>
+  <body>
+    
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+GAME SCRIPT PAGE
+
+//game variables here (all global for now)
+
+let name2=prompt("Enter your name") // name is global because the name will remain constant throughout the game
+
+//game sprite variables
+let bg; // there will be a background for each scene
+let width; // the width of the game is constant throughout the game
+let height; // the height of the game is constant throughout the game
+let ground;
+let player;
+
+//the game controls will be accessed throughout the game
+let up; 
+let down;
+let left;
+let right;
+
+let playerSpeed; // the player speed has to be accessed throughout the game
+let score=0; // the score has to be accessible throughout the levels
+
+let level; //the level will change throughout the game that's why it's global
+let level1Scores=[]; // the level 1 scores will not change and will have to accessed through the game that's why it's global
+
+//audio variables have to be accessed through the game that's why they're global
+let coinCollect;
+let marioJump;
+let goombaStomp;
+let backgroundMusic;
+let marioDeadEffect;
+
+//these level varibales should be global because the status of if the game is unlocked has to be available throughout the whole game 
+let levelOneUnlocked=false; 
+let levelTwoUnlocked=false;
+let levelThreeUnlocked=false;
+let levelFourUnlocked=false;
+let levelFiveUnlocked=false;
+
+//text displayer variables
+
+let playerNameDisplayer;
+let scoreDisplayer;
+let coinDisplayer;
+let worldDisplayer;
+
+//transition screen variables
+
+let worldInfoText;
+
+//mysteryBlock variables
+let mysteryBlocksGroup;
+let mysteryBlocksList;
+let mysteryBlocksListCopy;
+let mysteryBlockHitboxGroup;
+let mysteryBlockHitboxList=[];
+
+//brick variables
+let bricksGroup;
+let bricksList
+
+//tube variables
+let smallTube;
+let mediumTube;
+let bigTube;
+let superBigTube;
+let tubesGroup;
+let tubesList
+
+//ladder variables
+let ladderGroup
+
+//goomba variables
+let goombaGroup;
+let goombaHitboxGroup;
+let goombaHitboxList;
+let goombaList;
+let goombaSpeed=100;
+let goombaSetback=3;
+
+//coin varibles
+let coinsGroup;
+let coinsList;
+
+let groundBricksGroup;
+let levelWidth;
+let facingLeft;
+let facingRight;
+
+let colliderGroup;
+
+/*----------- FUNCTIONS --------------*/
+
+function bubbleSort(array) 
+{
+  let temp = 0;
+  for (let x=0; x<array.length; x++) {
+    for (let y=0; y<array.length-1; y++) {
+      if (array[y] > array[y+1]) {
+        temp = array[y];
+        array[y] = array[y+1];
+        array[y+1] = temp;
+      }
+    }
+  }
+  return array;
+}
+
+function dead()
+  {
+    level1Scores.push(score);
+    level1Scores=bubbleSort(level1Scores);
+
+    game.sound.stopAll();
+    marioDeadEffect.play();
+    game.scene.start("transition");
+    game.scene.stop("level1");
+  }
+
+function editName(string)
+  {
+    let newString="";
+    newString = string.toUpperCase(); // makes the name all uppercase
+    
+    if(newString.length>15) // if the name is above 15 characters
+    {
+      newString=newString.substring(0, 15); // make the name the first 15 letters
+    }
+    return newString;
+  }
+
+let name=editName(name2)
+
+// Game starts here
+
+// mainScreen Scene:
+
+class mainScreen extends Phaser.Scene {
+
+  // mainScreen Constructor
+    constructor (config)
+    {
+      super(config);
+    }
+
+  // mainScreen Preload
+
+    preload(){
+      this.load.image("homeBackground","assets/sprites/homeBackground.png");
+      this.load.image("startMessage", "assets/sprites/startButton.png");
+      this.load.image("levelSelect", "assets/sprites/levelSelectButton.png");
+      this.load.image("hitbox", "assets/sprites/hitbox.png");
+    }
+
+  // mainScreen Create
+    create(){
+      let width = game.config.width;
+      let height = game.config.height;
+      levelWidth=10000
+      this.physics.add.image(width/2,height/2,"homeBackground");
+      let startMessage=this.physics.add.image(600, 370, "startMessage").setInteractive();
+      let levelSelect=this.physics.add.image(600, 470, "levelSelect").setInteractive();
+
+      startMessage.on('pointerover', function(pointer){
+        this.setTint(0xf8D8D8D);
+      });
+
+      startMessage.on('pointerout', function(pointer){
+        this.clearTint();
+      });
+  
+      startMessage.on("pointerup", function(pointer){
+        this.clearTint();
+        game.scene.start("level1");
+        game.scene.stop("home");
+        const levelOneUnlocked=true;
+      });
+
+      levelSelect.on('pointerover', function(pointer){
+        this.setTint(0xfABABAB);
+      });
+
+      levelSelect.on('pointerout', function(pointer){
+        this.clearTint();
+      });
+  
+      levelSelect.on("pointerup", function(pointer){
+        this.clearTint();
+      });
+    }
+    update(){
+      
+    }
+}//end of mainScreen
+
+//Transition in between deaths screen
+
+class transition extends Phaser.Scene {
+
+  // transition Constructor
+    constructor (config)
+    {
+      super(config);
+    }
+
+  // transition Preload
+
+    preload(){
+      this.load.image("backgroundScreen","assets/sprites/transitionBackground.png");
+      this.load.image("backHome", "assets/sprites/backHomeButton.png");
+      this.load.image("retryLevel", "assets/sprites/retryLevelButton.png");
+    }
+
+  // transition Create
+    create(){
+      let width = game.config.width;
+      let height = game.config.height;
+      this.physics.add.image(width/2, height/2, "backgroundScreen");
+
+      worldInfoText=this.add.text(width/2-100, height/8, "WORLD 1-", {
+        fontFamily: "MarioFont",
+        fontSize:20,
+        color:"#FFFFFF"
+      })
+
+      this.add.text(width/2-150, height/4, "You  Died !", {
+        fontFamily: "MarioFont",
+        fontSize:70,
+        color:"#FFFFFF"
+      })
+      
+      let retryLevel=this.physics.add.image(600, 340, "retryLevel").setInteractive().setScale(0.5);
+      let backHome=this.physics.add.image(600, 470, "backHome").setInteractive().setScale(0.5);
+
+      retryLevel.on('pointerover', function(pointer){
+        this.setTint(0xf8D8D8D);
+      });
+
+      retryLevel.on('pointerout', function(pointer){
+        this.clearTint();
+      });
+  
+      retryLevel.on("pointerup", function(pointer){
+        this.clearTint();
+        game.scene.start("level1");
+        game.scene.stop("transition");
+      });
+
+      backHome.on('pointerover', function(pointer){
+        this.setTint(0xfABABAB);
+      });
+
+      backHome.on('pointerout', function(pointer){
+        this.clearTint();
+      });
+  
+      backHome.on("pointerup", function(pointer){
+        game.scene.start("home");
+        game.scene.stop("transition");
+      });
+    }
+    update(){
+      worldInfoText.text="WORLD 1-"+level
+    }
+}//end of transition
+
+//levelOne Scene:
+
+class levelOne extends Phaser.Scene {
+  
+  //levelOne Screen constructor
+  
+    constructor (config)
+    {
+      super(config);
+    }
+  
+    // levelOne Screen Preload
+  
+    preload ()
+    {
+      this.load.image("groundBrick","assets/sprites/groundBrick.png");
+      this.load.image("background","assets/sprites/background.png");
+      this.load.image("platformBrick", "assets/sprites/brick.png");
+      this.load.image("mysteryBlock", "assets/sprites/mysteryBlock.png");
+      this.load.image("emptyBlock", "assets/sprites/emptyBlock.png");
+      this.load.image("ladder", "assets/sprites/ladder.png")
+      this.load.atlas("mario", "assets/sprites/mario.png", "assets/sprites/marioSpritesheet.json");
+      this.load.atlas("tubes", "assets/sprites/tubes.png", "assets/sprites/tubesSpritesheet.json");
+      this.load.atlas("coins", "assets/sprites/coins.png", "assets/sprites/coinsSpritesheet.json");
+      this.load.atlas("goomba", "assets/sprites/goomba.png", "assets/sprites/goombaSpritesheet.json");
+      this.load.audio("backgroundThemeSong", "assets/music/backgroundThemeSong.mp3");
+      this.load.audio("coinCollect", "assets/effects/coinEffect.mp3");
+      this.load.audio("goombaDead", "assets/effects/goombaDeadEffect.mp3");
+      this.load.audio("marioJump", "assets/effects/marioJumpEffect.mp3");
+      this.load.audio("marioDead", "assets/effects/marioDead.mp3");
+    }
+  
+  // levelOne Screen Create
+  
+    create (data)
+    {
+      level=1;
+      score=0
+      let width = game.config.width;
+      let height = game.config.height;
+      //creating background
+      bg = this.add.tileSprite(0, 28, levelWidth, 670, "background");
+      bg.setOrigin(0);
+      bg.setScrollFactor(0, 1);
+
+      //adding audio
+
+      coinCollect=this.sound.add("coinCollect");
+      goombaStomp=this.sound.add("goombaDead", {volume: 10});
+      marioJump=this.sound.add("marioJump");
+      marioDeadEffect=this.sound.add("marioDead");
+      backgroundMusic = this.sound.add("backgroundThemeSong")
+      backgroundMusic.loop = true;
+      backgroundMusic.play();
+
+      //creating player
+      player=this.physics.add.sprite(40, height-70, "mario", "runningRight0000");
+      player.enableBody=true;
+      player.body.gravity.y=2000;
+
+      playerNameDisplayer=this.add.text(20, 40, name, {
+        fontFamily:"MarioFont", 
+        fontSize:22, 
+        color:"#FFFFFF"
+      })
+
+      playerNameDisplayer.setScrollFactor(0);
+
+      //creating static groups
+
+      groundBricksGroup = this.physics.add.staticGroup();
+      mysteryBlocksGroup = this.physics.add.staticGroup();
+      bricksGroup = this.physics.add.staticGroup();
+      mysteryBlockHitboxGroup = this.physics.add.staticGroup();
+      tubesGroup = this.physics.add.staticGroup();
+      coinsGroup = this.physics.add.staticGroup();
+      goombaGroup = this.physics.add.staticGroup();
+      ladderGroup = this.physics.add.staticGroup();
+      
+      colliderGroup = this.physics.add.staticGroup();
+
+      //creating blocks
+      this.addMysteryBlock(300, height-190);
+      this.addBrick(530, height-190);   
+      this.addMysteryBlock(570, height-190);
+      this.addBrick(610, height-190);
+      this.addMysteryBlock(610, height-380);
+      this.addMysteryBlock(650, height-190);
+      this.addBrick(690, height-190);
+
+      mysteryBlocksList=mysteryBlocksGroup.getChildren();
+
+      for(let i=0; i<mysteryBlocksList.length; i++)
+        {
+          let mysteryBlock=mysteryBlocksList[i]
+          mysteryBlockHitboxGroup.add(this.add.tileSprite(mysteryBlock.x, mysteryBlock.y+20, 5, 2, "hitbox"))
+        }
+
+      
+
+      //creating ground
+      groundBricksGroup.add((this.add.tileSprite(0, height-40, 3000, 80, "groundBrick")).setOrigin(0, 0));
+
+      groundBricksGroup.add((this.add.tileSprite(3150, height-40, 4000, 80, "groundBrick")).setOrigin(0, 0));
+
+      //creating tubes
+      tubesGroup.add(this.add.sprite(1000, height-80, "tubes", "smallTube"));
+      tubesGroup.add(this.add.sprite(1370, height-130, "tubes", "bigTube"));
+      tubesGroup.add(this.add.sprite(1750, height-155, "tubes", "superBigTube"));
+
+      tubesList=tubesGroup.getChildren();
+
+      //creating ladders
+      for(let x=0; x<tubesList.length; x++)
+        {
+          let tube=tubesList[x]
+          ladderGroup.add(this.add.tileSprite(tube.x+40, tube.y, 20, tube.height-10, "ladder"))
+        }
+
+      // creating coins
+      coinsGroup.add(this.add.sprite(1000, height-140, "coins", "coinsUp0001"));
+      coinsGroup.add(this.add.sprite(1370, height-240, "coins", "coinsUp0001"));
+      coinsGroup.add(this.add.sprite(1750, height-290, "coins", "coinsUp0001"));
+
+      // creating goomba enemy
+
+      goombaGroup.add(this.physics.add.sprite(1100, height-70, "goomba", "goombaRunning0000"));
+
+      goombaList=goombaGroup.getChildren();
+
+      for(let i=0; i<goombaList.length; i++)
+        {
+          let goomba=goombaList[i]
+          goomba.enableBody=true;
+          goomba.body.gravity.y=2000;
+        }
+
+      //creating camera
+
+      this.cameras.main.setBounds(0, 0, 5000, 600);
+      this.cameras.main.startFollow(player);
+
+      //creating keys
+      up=this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.UP);
+      down=this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.DOWN);
+      left=this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
+      right=this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
+
+      //adding colliders
+      this.physics.add.collider(player, groundBricksGroup);
+      this.physics.add.collider(player, mysteryBlocksGroup);
+      this.physics.add.collider(player, bricksGroup);
+      this.physics.add.collider(player, tubesGroup);
+      this.physics.add.collider(player, ladderGroup)
+
+      this.physics.add.collider(goombaGroup, groundBricksGroup);
+
+      
+      //creating animations
+
+      this.anims.create({
+        key: 'runningRight',
+        frames: this.anims.generateFrameNames("mario", {prefix: "runningRight", end: 3, zeroPad:4}),
+        frameRate: 10,
+        repeat: 0,
+      });
+      this.anims.create({
+        key: 'runningLeft',
+        frames: this.anims.generateFrameNames("mario", {prefix: "runningLeft", end: 3, zeroPad:4}),
+        frameRate: 10,
+        repeat: 0,
+      });
+
+      this.anims.create({
+        key: 'coinUp',
+        frames: this.anims.generateFrameNames("coins", {prefix: "coinsUp", end: 5, zeroPad:4}),
+        frameRate: 10,
+        repeat: -1,
+      });
+
+      this.anims.create({
+        key: 'goombaRunning',
+        frames: this.anims.generateFrameNames("goomba", {prefix: "goombaRunning", end: 1, zeroPad:4}),
+        frameRate: 10,
+        repeat: -1,
+      })
+
+      //adding lists
+
+      bricksList=bricksGroup.getChildren();
+      mysteryBlocksListCopy = mysteryBlocksList.slice();
+      mysteryBlockHitboxList=mysteryBlockHitboxGroup.getChildren();
+      coinsList=coinsGroup.getChildren();
+      
+      for(let i=0; i<bricksList.length; i++)
+        {
+          colliderGroup.add(bricksList[i])
+        }
+      for(let i=0; i<tubesList.length; i++)
+        {
+          colliderGroup.add(tubesList[i])
+        }
+      for(let i=0; i<mysteryBlocksList.length; i++)
+        {
+          colliderGroup.add(mysteryBlocksList[i])
+        }
+
+      //add text
+
+      scoreDisplayer=this.add.text(20, 65, "SCORE: 0", {
+        fontFamily:"MarioFont", 
+        fontSize:22, color:"#FFFFFF"
+      })
+      scoreDisplayer.setScrollFactor(0)
+    }
+
+  //levelOne update
+  
+    update()
+    {
+      bg.setTilePosition(this.cameras.main.scrollX);
+      playerSpeed=400;
+      player.setVelocityX(0);
+
+      // if player falls through the floor
+      if(this.isUnderMap()==true)
+      {
+        player.y=-10
+        dead();
+      }
+
+      //player movement left and right
+      if(left.isDown) 
+      {
+        facingLeft=true;
+        facingRight=false;
+        if(player.x>0)
+        {
+          player.setVelocityX(-playerSpeed);
+          player.anims.play("runningLeft", true);
+          if(this.physics.world.overlap(player,colliderGroup))
+          {
+            player.setVelocityX(0);
+            player.x+=5;
+          }
+        }
+      }
+      else if(right.isDown)
+      {
+        facingLeft=false;
+        facingRight=true;
+        player.setVelocityX(playerSpeed);
+        player.anims.play("runningRight", true); 
+        if(this.physics.world.overlap(player,colliderGroup))
+        {
+          player.setVelocityX(0);
+          player.x-=5;
+        }
+      }
+
+      if(player.body.velocity.x==0 && player.body.velocity.y==0)
+        {
+          if(facingLeft==true)
+          {
+            player.setTexture("mario", "runningLeft0000");
+          }
+          else if(facingRight==true)
+          {
+            player.setTexture("mario", "runningRight0000");
+          }
+        }
+
+      if(player.body.velocity.y<0 && player.body.touching.down==false)
+      {
+        if(facingLeft==true)
+          {
+            player.setTexture("mario", "jumpingLeft");
+          }
+          else if(facingRight==true)
+          {
+            player.setTexture("mario", "jumpingRight");
+          }
+      }
+
+      if(up.isDown && this.physics.world.overlap(player, ladderGroup))
+      {
+        player.setVelocityY(-550);
+      }
+
+      // player jumps
+      
+      else if(up.isDown && player.body.touching.down)
+      {
+        if(this.physics.world.overlap(player,colliderGroup))
+        {
+          player.setVelocityY(0);
+        }
+        else
+        {
+          player.setVelocityY(-850);
+          marioJump.play();
+        }
+      }
+
+      // if the player hits the mystery block
+
+      for(let x=0; x<mysteryBlockHitboxList.length; x++)
+        {
+          let coin;
+          let hitbox=mysteryBlockHitboxList[x];
+          let mBlock=mysteryBlocksListCopy[x];
+          if(this.physics.world.overlap(player,hitbox))
+          {
+            player.y+=5;
+            coin=this.add.sprite(mysteryBlockHitboxList[x].x, mysteryBlockHitboxList[x].y-57, "coins", "coinsUp0001");
+            coin.anims.play("coinUp");
+            coinsGroup.add(coin);
+            mBlock.setTexture("emptyBlock")
+            mysteryBlockHitboxList.splice(x, 1)
+            mysteryBlocksListCopy.splice(x, 1)
+          }
+        }
+      this.physics.add.collider(player, mysteryBlocksGroup);
+
+      // if the player collides with a coin
+      coinsList=coinsGroup.getChildren();
+      for(let i=0; i<coinsList.length; i++)
+        {
+          let coin=coinsList[i];
+          if(this.physics.world.overlap(player,coin))
+          {
+            coinCollect.play();
+            score+=50;
+            coin.destroy();
+          }
+        }
+
+      for(let x=0; x<goombaList.length; x++)
+        {
+          let goomba1=goombaList[x]
+          this.physics.add.collider(player, goomba1);
+          // moving the goomba enemy
+          if(goomba1.body.velocity.x == 100 || goomba1.body.velocity.x == -100)
+          {
+            goomba1.anims.play("goombaRunning", true)  
+          }
+    
+          if(this.physics.world.overlap(goomba1, tubesGroup))
+          {
+            goombaSpeed*=-1
+            goombaSetback*=-1
+            goomba1.x+=goombaSetback
+          }
+          goomba1.setVelocityX(goombaSpeed)
+
+          if(player.body.touching.down && goomba1.body.touching.up)
+          {
+            goombaStomp.play();
+            goomba1.setTexture("goomba", "goombaSquished")
+            goomba1.destroy();
+            score+=100;
+          }
+
+          else if(this.physics.world.overlap(player, goomba1))
+          {
+            dead();
+          }
+
+          else if(player.x+28==goomba1.x-24)
+          {
+            dead();
+          }
+          else if(player.x-28==goomba1.x+24)
+          {
+            dead();
+          }
+          else if(player.x+28==goomba1.x+24)
+          {
+            dead();
+          }
+          else if(player.x-28==goomba1.x-24)
+          {
+            dead();
+          }
+        }
+      scoreDisplayer.text="SCORE: " + score;
+    }
+
+  addBrick(x, y)
+  {
+    let brick=this.add.tileSprite(x, y, 40, 40, "platformBrick")
+    bricksGroup.add(brick);
+  }
+
+  addMysteryBlock(x, y)
+  {
+    mysteryBlocksGroup.add(this.add.tileSprite(x, y, 40, 40, "mysteryBlock"));
+  }
+
+  isUnderMap()
+  {
+    if(player.y>800)
+    {
+      return true;
+    }
+    else
+    {
+      return false;
+    }
+  }
+}//end of level 1
+
+class endScene extends Phaser.Scene {
+    constructor (config)
+    {
+      super(config);
+    }
+
+    preload(){
+
+    }
+    create(){
+    
+    }
+    update(){
+
+    }
+}//end of endScene
+
+var config = {
+  type: Phaser.AUTO,
+  parent: 'phaser-example',
+  width: 1200,//game world width
+  height: 700,//game world height
+  physics: {
+      default: 'arcade',
+      arcade: {
+          debug: false
+          }
+  }
+};
+
+var game = new Phaser.Game(config);
+
+game.scene.add("level1",levelOne);
+game.scene.add("home",mainScreen);
+game.scene.add("transition", transition);
+game.scene.start("home");//the sceen or screen to start
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+GAME CSS PAGE
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+
+@font-face {
+  font-family: "MarioFont";
+  src: url('assets/superMarioFont.ttf');
+}

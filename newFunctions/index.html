@@ -1,0 +1,124 @@
+<!-- 
+  Krish Patel
+  6/6/2022
+  New Functions
+  The following is the HTML code used to code the displayer of new functions used in my Super Mario Bros game
+-->
+
+<html>
+  <head>
+    <title>
+      New Functions
+    </title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center><h1>New Functions</h1></center>
+    <ul id="navBar">
+      <li>
+        <a href="../index.html">HOME</a>
+      </li>
+      <li>
+        <a href="../roughSketches/index.html">ROUGH SKETCHES</a>
+      </li>
+      <li>
+        <a href="../codeSnippets/index.html">CODE SNIPPETS & TEXT FILE</a>
+      </li>
+      <li>
+        <a href="../newFunctions/index.html">NEW FUNCTIONS</a>
+      </li>
+      <li>
+        <a href="../help/index.html">HELP</a>
+      </li>
+      <li>
+        <a href="../game/index.html">PLAY GAME</a>
+      </li>
+    </ul>
+    <br><br><br><br><br><br>
+
+    <center><h2>getChildren()</h2></center>
+    
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <p>
+            The getChildren() function returns an array which contains all objects currently in a group. It takes in no parameters. I used this function for every group I added so I can modify each item in a group using a for loop and loop through each element in the array.
+          </p>
+        </td>
+        <td>
+          <img src="../images/getChildren.png" width=700 height=300>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setScrollFactor()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/setScrollFactor.png" width=700 height=300>
+        </td>
+        <td>
+          <p>
+            The setScrollFactor() function controls the influence of the movement of the camera upon the movement of a game object. It takes in an x value and an optional y value. Setting one 0 parameter will set the element in place on the screen. In my game, I used this to make the top text stationary. I wanted the background screen to scroll and having the parameters (0, 1) will do so.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setVelocityX()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <p>
+            The setVelocityX() function sets the horizontal velocity for an object. There is one parameter containing a number that would be the velocity of the object. The higher the number, the faster the object goes. A negative value makes the object go left and a positive value makes the object go right. I used this in my game to move the Mario left and right and the Goomba enemy back and forth.
+          </p>
+        </td>
+        <td>
+          <img src="../images/setVelocityX.png" width=700 height=270>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setOrigin()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/setOrigin.png" width=900 height=100>
+        </td>
+        <td>
+          <p>
+            The setOrigin() function sets the origin of the object. It takes in two optional x and y parameters and is helpful when wanting to add an object to a certain origin point. I used this when adding my background and ground using the parameters (0, 0)
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <center><h2>setVelocityY()</h2></center>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <p>
+            The setVelocityY() function sets the vertical velocity for an object. There is one parameter containing a number that would be the velocity of the object. The higher the number, the faster the object moves. A negative value makes the object go up and a positive value makes the object go down. I used this in my game to move the Mario jump up as well as go up the ladders.
+          </p>
+        </td>
+        <td>
+          <img src="../images/setVelocityY.png" width=700 height=400>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>

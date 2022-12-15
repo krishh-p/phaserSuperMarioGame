@@ -1,0 +1,168 @@
+<!-- 
+  Krish Patel
+  6/6/2022
+  Code Snippets
+  The following is the HTML code used to code the displayer of code snippets used in my Super Mario Bros game as well as the .txt file including all the code
+-->
+
+<html>
+  <head>
+    <title>
+      Code Snippets
+    </title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center><h1>Code Snippets</h1></center>
+    <ul id="navBar">
+      <li>
+        <a href="../index.html">HOME</a>
+      </li>
+      <li>
+        <a href="../roughSketches/index.html">ROUGH SKETCHES</a>
+      </li>
+      <li>
+        <a href="../codeSnippets/index.html">CODE SNIPPETS & TEXT FILE</a>
+      </li>
+      <li>
+        <a href="../newFunctions/index.html">NEW FUNCTIONS</a>
+      </li>
+      <li>
+        <a href="../help/index.html">HELP</a>
+      </li>
+      <li>
+        <a href="../game/index.html">PLAY GAME</a>
+      </li>
+    </ul>
+    <br><br><br><br>
+
+    <center><h2>Global Variables</h2></center>
+    <center><img src="../images/globalVariables.png"></center>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/functionNoParameter.png">
+        </td>
+        <td width=50%>
+          <h2 style="line-height: 50px;">Function Without Parameters</h2>
+          <p>
+            This function is called once the player dies. Since this can happen on multiple different occurences, I decided to put it in a function. The function takes in no parameters and does not have a return value. It adds the player's score before they die to the list of scores. It stops the background music then plays the dying sound effect. It opens the transition screen and closes the game screen.
+          </p>
+        </td>
+      </tr>
+    </table>
+    
+    <hr><hr>
+    
+    <table id="codeSnippetsTables"">
+      <tr>
+        <td style="padding-left:50px">
+          <h2 style="line-height: 50px;">Function With Parameters</h2>
+          <p>
+            This function is called when placing a brick in the game. It has two parameters, x and y, and it doesn't have a return value. This will denote the x and y value of the brick added. The function will also add the brick into the brickGroup.
+          </p>
+        </td>
+        <td>
+          <img src="../images/functionParameterNoReturn.png" width=790 height=220>
+        </td>
+      </tr>
+    </table>
+    
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/functionNoParameterReturn.png" width=400 height=500>
+        </td>
+        <td width=50%>
+          <h2 style="line-height: 50px;">Function Without Parameters and a Return Value</h2>
+          <p>
+            This function is called in the update section of the game scene. It does not take in any parameters and has a return value of either true of false. It returns true if the player has fallen below the ground and false if it hasn't. This is because if the player falls out of the world, the player dies.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables"">
+      <tr>
+        <td style="padding-left:50px">
+          <h2 style="line-height: 50px;">Function With Parameters and a Return Value</h2>
+          <p>
+            This function is called at the start of the game to edit the name entered in the starting prompt. The function takes in one parameter and returns the new string after the adjustments. The function capitalizes the player's name. Also, if the length of the string is above 15, it shortens down the name to the first 15 characters. This ensures that long names won't glitch the game.
+          </p>
+        </td>
+        <td>
+          <img src="../images/functionParameterReturn.png">
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <h2 style="line-height: 50px;">String Function #1</h2>
+        </td>
+        <td>
+          <img src="../images/stringFunction1.png">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2 style="line-height: 50px;">String Function #2</h2>
+        </td>
+        <td>
+          <img src="../images/stringFunction2.png">
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables">
+      <tr>
+        <td>
+          <img src="../images/arrays1.png">
+        </td>
+        <td>
+          <h2 style="line-height: 50px;">Array Example #1</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="../images/arrays2.png">
+        </td>
+        <td>
+          <h2 style="line-height: 50px;">Array Example #2</h2>
+        </td>
+      </tr>
+    </table>
+
+    <hr><hr>
+
+    <table id="codeSnippetsTables"">
+      <tr>
+        <td>
+          <h2>Bubble Sorting</h2>
+          <p>
+            This bubble sorting function can be used anywhere in the code. Using a bubble sorting algorithm, it will successfully order numbers in a list in ascending order. I primarly use this function in my code when finding the high score for each level. The function would order the list of scores from lowest to highest then I could get the last element to get the high score.
+          </p>
+        </td>
+        <td>
+          <img src="../images/bubbleSort.png" width=700 height=600>
+        </td>
+      </tr>
+    </table>
+    <br><br><br><br>
+    <center><a href="code.txt" id="codeHyperlink">CODE.TXT</a></center>
+    <br><br><br><br><br><br>
+  </body>
+</html>
